@@ -4,4 +4,6 @@ class Urls {
   static const String postProductUrl = '$_baseurl/CreateProduct';
 
   static String deleteProductsUrl(String id) => '$_baseurl/DeleteProduct/$id';
+
+  static String updateProductUrl(String id) => '$_baseurl/UpdateProduct/$id';
 }
